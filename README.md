@@ -19,3 +19,11 @@ Available for Windows, MacOS, Linux and on the web at https://numara.io
 <img src='https://github.com/bornova/numara-calculator/assets/35872220/1097fb1f-745e-46bc-9ef6-c09ce3db4586' width='200'>
 
 Visit the [Wiki page](https://github.com/bornova/numara-calculator/wiki) to learn more about the features.
+
+
+# Run with Docker
+
+```
+docker build -t numara-calculator:latest . --output type=docker
+docker run -d -p 8080:8080 numara-calculator:latest
+```
